@@ -5,6 +5,7 @@
 python data_fetcher.py
 ```
 ```bash
+#计算每月最高最低指数与其日期
 python calculator.py
 ```
 ## 配置相关
