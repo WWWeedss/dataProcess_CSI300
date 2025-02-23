@@ -1,9 +1,16 @@
 import psycopg2
 import configparser
 import pandas as pd
+import os
+
+# 获取当前文件所在目录的绝对路径
+base_dir = os.path.dirname(os.path.abspath(__file__))
+
+# 拼接config.ini的绝对路径
+config_path = os.path.join(base_dir, '..', 'config.ini')
 
 class DatabaseHandler:
-    def __init__(self, config_file="config.ini"):
+    def __init__(self, config_file = config_path):
         """
                 初始化数据库配置，创建数据库连接
         """

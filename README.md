@@ -2,11 +2,11 @@
 ## 运行
 ```bash
 #获取数据并插入数据库
-python data_fetcher.py
+python src/data_fetcher.py
 ```
 ```bash
 #计算每月最高最低指数与其日期
-python calculator.py
+python src/calculator.py
 ```
 ## 配置相关
 ### 当前数据库配置
